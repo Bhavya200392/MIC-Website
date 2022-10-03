@@ -51,8 +51,8 @@ export default function stores() {
     <div className="flex flex-wrap justify-center sm:p-10 sm:m-0">
             {
             Department.map((Department)=>(      
-            <div className="sm:w-80 w-[50vh] border-gray-200 dark:bg-gray-800 dark:border-gray-700 m-2 sm:m-4 rounded-2xl shadow-md border-solid  shadow-[#0000001a] bg-gradient-to-tr from-[#ffffffff] to-[#ECE9E6]">
-                <div className="sm:w-full w-[32vh]">
+            <div className="sm:w-80 w-[100vh] border-gray-200 dark:bg-gray-800 dark:border-gray-700 m-2 sm:m-4 rounded-2xl shadow-md border-solid  shadow-[#0000001a] bg-gradient-to-tr from-[#ffffffff] to-[#ECE9E6] overflow-hidden">
+                <div className="sm:w-full">
                     <img className="rounded-t-lg object-cover max-w-full" src={Department.src} alt="Department Image" /> {/*Dimn 1200*1200px*/}
                 </div>
                 <div className="p-5">
