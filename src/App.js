@@ -8,13 +8,11 @@ import Department from './Department';
 function App() {
   return (
     <>
-    {/* <BrowserRouter> */}
+    {/* <BrowserRouter>  That included in index.js no worry*/}
       <Routes>
         <Route path="/" element={<><Department/></>}/>
       </Routes>
-      
     {/* </BrowserRouter> */}
-    
     </>
   );
 }
