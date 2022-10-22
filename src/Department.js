@@ -63,7 +63,7 @@ export default function stores() {
     <div className="flex flex-wrap justify-center sm:p-10 sm:m-0">
             {
             Department.map((Department)=>(      
-            <div key={Department.alt} className=" md:w-80 w-64 border-gray-200 dark:bg-gray-800 dark:border-gray-700 md:m-6 sm:m-4 m-3 rounded-2xl shadow-md border-solid  shadow-[#0000001a] bg-gradient-to-tr from-[#ffffffff] to-[#ECE9E6] overflow-hidden">
+            <div key={Department.alt} className="md:w-80 w-64 border-gray-200 dark:bg-gray-800 dark:border-gray-700 md:m-6 sm:m-4 m-3 rounded-2xl shadow-md border-solid  shadow-[#0000001a] bg-gradient-to-tr from-[#ffffffff] to-[#ECE9E6] overflow-hidden">
                 <div className="sm:w-full ">
                     <img className="rounded-t-lg object-cover max-w-full" src={Department.src} alt={Department.alt} />
                 </div>
